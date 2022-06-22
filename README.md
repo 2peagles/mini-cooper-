@@ -2,6 +2,7 @@ BOOTSTRAP!
     1. Starting with the navbar getting all the words and functions right
         1. Dropdown menu , adding a side menu within the dropdown
         2.getting the logo i created on canva up loaded as well as icons (react-icons)
+ ![navbarprogress](https://user-images.githubusercontent.com/103866435/174958375-b1734bf0-635e-4c6a-b207-df43ab759dd1.png)
 
 ### Code Splitting
 
