@@ -3,6 +3,8 @@ BOOTSTRAP!
         1. Dropdown menu , adding a side menu within the dropdown
         2.getting the logo i created on canva up loaded as well as icons (react-icons)
  ![navbarprogress](https://user-images.githubusercontent.com/103866435/174958375-b1734bf0-635e-4c6a-b207-df43ab759dd1.png)
+ 2.Adding images and button to nav
+ ![Screenshot 2022-06-22 10 26 48 AM](https://user-images.githubusercontent.com/103866435/175054230-03c48214-a4f2-474e-bee7-7725093a589a.png)
 
 ### Code Splitting
 
