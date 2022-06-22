@@ -1,35 +1,78 @@
 import React from 'react'
-import { Navbar, Nav, NavDropdown, Container, Dropdown, DropdownButton, ButtonGroup} from 'react-bootstrap';
-import MINI from '../../Images/MINI.jpg'
-import { HiOutlineShoppingBag, HiOutlineColorSwatch, HiOutlineLocationMarker } from 'react-icons/hi';
+import { CgProfile } from 'react-icons/cg';
 import { VscTools } from 'react-icons/vsc';
 import { FaCarSide, FaRegHeart } from 'react-icons/fa';
 import { TbSteeringWheel, TbFlag, TbWorld } from 'react-icons/tb'
 import { RiRulerLine, RiBookmark3Line } from 'react-icons/ri';
-import { CgProfile } from 'react-icons/cg';
 import { IoIosPaper, IoIosSearch, IoIosPricetag } from 'react-icons/io';
-import { MdOutlineSportsMotorsports, MdSlowMotionVideo, MdOutlinePersonalVideo } from 'react-icons/md'
+import { HiOutlineShoppingBag, HiOutlineColorSwatch, HiOutlineLocationMarker } from 'react-icons/hi';
+import { MdOutlineSportsMotorsports, MdSlowMotionVideo, MdOutlinePersonalVideo } from 'react-icons/md';
+import { Navbar, Nav, NavDropdown, Container, Dropdown, DropdownButton, ButtonGroup,Row, Col } from 'react-bootstrap';
+import fourdoor from '../../Images/fourdoor.jpg';
+import MINI from '../../Images/MINI.jpg'
+import './Navigation.css'
 export const Navigation = () => {
   return (
       <Navbar variant="light" bg="light" expand="lg">
           <Container fluid>
-              <Navbar.Brand href="#home"><img src={MINI} alt='MINI logo' height='100px'/></Navbar.Brand>
-              <Navbar.Toggle aria-controls="navbar-dark-example" />
+              <Navbar.Brand href="#home"><img src={MINI} alt='MINI logo' height='75px'/></Navbar.Brand>
+              <Navbar.Toggle aria-controls="nav-dropdown-example" />
               <Navbar.Collapse id="navbar-dark-example">
                   <Nav>
+                    <Row></Row><Col></Col>
                       <NavDropdown
-                          id="nav-dropdown-dark-example"
+                          id="nav-dropdown"
                           title="MODELS"
                           menuVariant="light"
                       >
-                          <NavDropdown.Item href="#action/3.1">MINI HARDTOP 2 DOOR</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.2">MINI HARDTOP $ DOOR</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.3">MINI COUNTRYMAN</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.4">MIIN CLUBMAN</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.4">MIIN CONVERTIBLE</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.4"> JOHN COOPER WORKS</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.4"> MIIN ELECTRIC</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.4"> SPECIAL EDITIONS</NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.1">
+                            < img src={fourdoor} alt='cooper gray' height='200px' />
+                                 MINI HARDTOP 2 DOOR
+                                 <button className='navbtn'>explore</button>
+                                    <button className='navbtn navbtnoffer'>offers</button>
+                                </NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.2">
+                            < img src={fourdoor} alt='cooper gray' height='200px' />
+                            MINI HARDTOP 4 DOOR
+                              <button className='navbtn'>explore</button>
+                              <button className='navbtn navbtnoffer'>offers</button>
+                              </NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.3">
+                            < img src={fourdoor} alt='cooper gray' height='200px' />
+                                MINI COUNTRYMAN
+                              <button className='navbtn'>explore</button>
+                              <button className='navbtn navbtnoffer'>offers</button>
+                            </NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.4">
+                            < img src={fourdoor} alt='cooper gray' height='200px' />
+                            MIIN CLUBMAN
+                              <button className='navbtn'>explore</button>
+                              <button className='navbtn navbtnoffer'>offers</button>
+                              </NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.4">
+                            < img src={fourdoor} alt='cooper gray' height='200px' />
+                            MIIN CONVERTIBLE
+                              <button className='navbtn'>explore</button>
+                              <button className='navbtn navbtnoffer'>offers</button>
+                              </NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.4"> 
+                          < img src={fourdoor} alt='cooper gray' height='200px' />
+                          JOHN COOPER WORKS
+                              <button className='navbtn'>explore</button>
+                              <button className='navbtn navbtnoffer'>offers</button>
+                              </NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.4"> 
+                          < img src={fourdoor} alt='cooper gray' height='200px' />
+                            MIIN ELECTRIC
+                              <button className='navbtn'>explore</button>
+                              <button className='navbtn navbtnoffer'>offers</button>
+                              </NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.4"> 
+                            < img src={fourdoor} alt='cooper gray' height='200px' />
+                            SPECIAL EDITIONS
+                              <button className='navbtn'>explore</button>
+                              <button className='navbtn navbtnoffer'>offers</button>
+                              </NavDropdown.Item>
                           <NavDropdown.Divider/>
                           <NavDropdown.Item href="#action/3.4"> CERTIFIED PRE-OWNED</NavDropdown.Item>
                           <NavDropdown.Item href="#action/3.4">  <FaCarSide /> ALL MODELS</NavDropdown.Item>
@@ -189,7 +232,7 @@ export const Navigation = () => {
                               ))}
                           </div>
                       </NavDropdown>
-                      <Navbar.Brand href="#home"><img src={MINI} alt='MINI logo' height='50px' /></Navbar.Brand>
+                      <Navbar.Brand href="#home"><img src={MINI} alt='MINI logo' height='25px' /></Navbar.Brand>
                       <Nav.Link href="#home">certified pre-owned</Nav.Link>
                       <Nav.Link href="#link">Special Offers</Nav.Link>
                       <Nav.Link href="#home"> dealers & locations</Nav.Link>

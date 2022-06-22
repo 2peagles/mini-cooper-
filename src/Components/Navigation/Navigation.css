@@ -1,0 +1,25 @@
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu {
+        margin-top: 0;
+    }
+    /* #nav-dropdown{
+      color:pink;
+    } */
+    .navbtn{
+        color:white;
+        border: none;
+        background-color: red;
+    }
+    .navbtnoffer {
+       color: white;
+        border: none;
+        background-color: black;
+      }
+      .navbtn:hover {
+          color: #000;
+          border:1px solid #000;
+          background-color: #fff;
+    }
