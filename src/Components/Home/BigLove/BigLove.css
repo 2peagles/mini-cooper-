@@ -1,0 +1,48 @@
+.biglovepolarbear{
+    height:320.35px;
+    width:485.6px;
+    padding:0px 25px;
+    margin:0;
+}
+h6{
+    font-size: 14px;
+    padding: 0px 0px 14px;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+p{
+    font-size:18px;
+    padding: 0px 0px 18px;
+    text-transform: uppercase;
+}
+.biglovetext{
+    padding:32px;
+}
+.biglovebtn{
+    color: #fff;
+    border: none;
+    font-size:16px;
+    margin:12px;
+    text-transform: uppercase;
+    padding:11.2px 8px 9.6px;
+}
+.btn-rn{
+    background-color: #00779c;
+}
+.btn-lm {
+    background-color: #000;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+/* Row{
+    padding: 0px -25px;
+} */
