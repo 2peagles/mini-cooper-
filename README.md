@@ -9,6 +9,10 @@ BOOTSTRAP!
     it makes things so much easier and with that i understand the flexbox a bit more now
     I still need to fix my navigation bar its a mess 
     Also i need to fix the slideshow it's the words that's getting me confused i need to do a deepdive on the two of those things. I did get a good amount of work I think so tommorow Ill finish the home page and see what I can do about that navigation!
+    ![Screenshot 2022-06-24 3 05 22 AM](https://user-images.githubusercontent.com/103866435/175482268-4101c212-04f5-4e79-b206-5efca57e8f80.png)
+![Screenshot 2022-06-24 3 05 09 AM](https://user-images.githubusercontent.com/103866435/175482309-5f0eca70-5e7d-40f0-8857-7425b13aba02.png)
+![Screenshot 2022-06-24 3 04 59 AM](https://user-images.githubusercontent.com/103866435/175482378-1f3e7736-0c65-484b-902c-6b60c5a7d867.png)
+![Screenshot 2022-06-24 3 04 35 AM](https://user-images.githubusercontent.com/103866435/175482432-9fb9f39c-fc1d-4b3c-968f-19dd4e179d51.png)
 
 ### Code Splitting
 
