@@ -1,0 +1,36 @@
+#legal{
+    color:#fff;
+    text-align: center;
+    font-size: 13px;
+    padding:75px 0px;
+    background-color: #000;
+}
+a{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: left;
+    margin:0;
+    padding:0;
+}
+li{
+    margin:0;
+    font-size: 16px;
+    padding:8px 0px;
+}
+ul{
+    margin:25px 0px;
+}
+.footertitle{
+    font-size: 18px;
+    padding:10px;
+    margin:0;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* font-family: MiniSerif, Times, Times New Roman, Georgia, serif; */
+}
+.footer-container{
+    text-align: left;
+    margin:0;
+    padding:75px 0px 75px 0px;
+}

@@ -10,6 +10,8 @@ import { Featured } from './Components/Home/Featured/Featured';
 import {Card} from './Components/Home/Card/Card';
 import { BreakTwo } from './Components/Home/BreakTwo';
 import { Contact } from './Components/Home/Contact';
+import { Footer } from './Components/Footer/Footer';
+import { Legal } from './Components/Footer/Legal';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       <Card/>
       <BreakTwo/>
       <Contact/>
+      <Footer/>
+      <Legal/>
     </div>
   );
 }

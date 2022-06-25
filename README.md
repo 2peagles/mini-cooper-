@@ -21,6 +21,7 @@ BOOTSTRAP!
 ![Screenshot 2022-06-24 11 01 50 PM](https://user-images.githubusercontent.com/103866435/175755921-f0946550-ef31-41ac-a7dc-0f24da03a23e.png)
 ![Screenshot 2022-06-24 11 01 39 PM](https://user-images.githubusercontent.com/103866435/175755922-0fbd0e33-2ba4-4eb1-b09f-9627a807994a.png)
 ![Screenshot 2022-06-24 11 01 28 PM](https://user-images.githubusercontent.com/103866435/175755923-4f9248b2-c553-4aea-bc0c-bb081287155a.png)
+I went back and fixed my form still looks a bit out of wack I added my footer and the legal, the footer got a bit messed up for some reason the list is over going on the same line.
 
 ### Code Splitting
 
