@@ -1,0 +1,13 @@
+h2{
+    font-size: 32px;
+    font-family: MiniSerif, Times, Times New Roman, Georgia, serif;
+}
+.cardsection{
+    background-color: #74747f;
+}
+.row{
+    text-align: left;
+    margin:10px;
+    padding:10px;
+    background-color: #fff;
+}

@@ -1,0 +1,46 @@
+.contactsection{
+    background-color: #f1f1f1;
+}
+.contactheading{
+    font-size: 32px;
+    padding:0px;
+    margin:0px;
+    text-transform: uppercase;
+    font-family: MiniSerif, Times, Times New Roman, Georgia, serif;
+}
+.label {
+    font-weight: bold;
+}
+.checkbox{
+    font-size:13px;
+}
+.btn {
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    margin: 12px;
+    padding: 11px 52px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #000;
+    font-size: 16px;
+    margin: 12px;
+    padding: 11px 52px;
+    background-color: #fff;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.btn-red {
+    background-color: #ac2430;
+    border-color: #ac2430;
+}
+li{
+    font-size:32px;
+    padding:8px;
+    text-align: right;
+    list-style-type: none;
+    display: inline-block;
+}

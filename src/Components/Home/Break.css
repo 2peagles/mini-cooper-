@@ -2,3 +2,42 @@
     padding:80px;
     background-color: #f1f1f1;
 }
+.breaktwo{
+    padding:40px;
+    background-color: #fff;
+}
+.breaksection{
+    padding: 70px 0px;
+    margin-top: 0px;
+    background-color: rgb(0, 0, 0);
+    /* background-position: 50%;
+    background-image: cover;
+    background-repeat:no-repeat;
+    background-image: url(https://www.miniusa.com/content/dam/mini/homepage/Banner.jpg.miniusaimg.xlarge.jpeg); */
+}
+.row{
+    background-color: transparent;
+}
+.breaktwotext{
+    font-size:32px;
+    text-transform: uppercase;
+}
+.breakbtn{
+    color:#000;
+    border: none;
+    font-size: 16px;
+    margin: 12px;
+    padding: 11px 52px;
+    border: 1px solid white;
+    background-color: aqua;
+    /* background-color: transparent; */
+}
+.breakbtn:hover {
+    color: #000;
+    border: none;
+    font-size: 16px;
+    margin: 12px;
+    padding: 11px 52px;
+    background-color: #fff;
+    text-transform: uppercase;
+}

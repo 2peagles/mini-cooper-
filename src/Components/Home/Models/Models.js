@@ -11,7 +11,7 @@ export const Models = () => {
       <Container className='container'>
       <Row>
         <Col >
-         <h1> - Models - </h1> 
+         <h1 > - Models - </h1> 
          </Col>
          </Row>
       <Row>

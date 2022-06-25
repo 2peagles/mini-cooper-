@@ -6,6 +6,10 @@ import { Hero } from './Components/Hero/Hero';
 import { Break } from './Components/Home/Break';
 import {Models} from './Components/Home/Models/Models';
 import { BigLove } from './Components/Home/BigLove/BigLove';
+import { Featured } from './Components/Home/Featured/Featured';
+import {Card} from './Components/Home/Card/Card';
+import { BreakTwo } from './Components/Home/BreakTwo';
+import { Contact } from './Components/Home/Contact';
 
 
 function App() {
@@ -16,6 +20,10 @@ function App() {
       <Break/>
       <Models/>
       <BigLove/>
+      <Featured/>
+      <Card/>
+      <BreakTwo/>
+      <Contact/>
     </div>
   );
 }
