@@ -17,6 +17,11 @@ BOOTSTRAP!
  DAY THREE
   I didn't get the navigation bar today, i continued with the home page I got the two card sections almost done, and the contact part almost done. I ran into a wee bit of a problem with my row/cols 
   I started to realized more about them when it came to getting the section background to work I wasn't using sections before but once I stared i got the background to work now i just need to fix the background on the content it's all stuck togther and i'm a bit confused. As far as rows are concerned I understand the placement with order inwhich something is shown on a small screen vs larger ones.
+  ![Screenshot 2022-06-24 11 02 02 PM](https://user-images.githubusercontent.com/103866435/175755919-c42373d5-e32a-49b0-8c4c-1494501c941e.png)
+![Screenshot 2022-06-24 11 01 50 PM](https://user-images.githubusercontent.com/103866435/175755921-f0946550-ef31-41ac-a7dc-0f24da03a23e.png)
+![Screenshot 2022-06-24 11 01 39 PM](https://user-images.githubusercontent.com/103866435/175755922-0fbd0e33-2ba4-4eb1-b09f-9627a807994a.png)
+![Screenshot 2022-06-24 11 01 28 PM](https://user-images.githubusercontent.com/103866435/175755923-4f9248b2-c553-4aea-bc0c-bb081287155a.png)
+
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
