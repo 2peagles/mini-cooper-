@@ -1,9 +1,8 @@
-/* .biglovepolarbear{
-    height:320.35px;
-    width:485.6px;
-    padding:0px 25px;
-    margin:0;
-    media
+/* @media screen {
+    .biglovepolarbear{
+        height:300px;
+        width:300px;
+    }
 } */
 .biglovetitle{
     font-size: 14px;
@@ -32,7 +31,7 @@ p{
     color: #fff;
     border: none;
     font-size:16px;
-    margin:12px;
+    margin:5px;
     text-transform: uppercase;
     padding:11px 52px;
     /* padding:11.2px 8px 9.6px; */
@@ -42,7 +41,7 @@ p{
     background-color: #fff;
     border: 1px solid black;;
     font-size: 16px;
-    margin: 12px;
+    /* margin: 12px; */
     text-transform: uppercase;
     padding: 11px 52px;
     /* padding:11.2px 8px 9.6px; */
@@ -70,6 +69,6 @@ a:hover{
     margin:0;
     text-align: left;
 }
-Row{
+/* Row{
     padding: 0px 25px;
-}
+} */

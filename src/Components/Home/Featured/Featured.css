@@ -22,23 +22,6 @@ p{
     width:250px;
 }
 
-.btn{
-    color:#fff;
-    border: none;
-    font-size: 16px;
-    margin: 12px;
-    padding: 11px 52px;
-    text-transform: uppercase;
-}
-.btn:hover {
-    color: #000;
-    font-size: 16px;
-    margin: 12px;
-    padding: 11px 52px;
-    background-color: #fff;
-    border:1px solid black;
-    text-transform: uppercase;
-}
 .btn-red {
 background-color: #ac2430;
     border-color: #ac2430;
@@ -56,4 +39,7 @@ a {
 a:hover {
     color: currentColor;
     text-decoration: none;
+}
+.featuredheadingrow, .featuredheadingcol{
+    background-color: #f1f1f1;
 }

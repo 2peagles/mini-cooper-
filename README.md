@@ -22,6 +22,13 @@ BOOTSTRAP!
 ![Screenshot 2022-06-24 11 01 39 PM](https://user-images.githubusercontent.com/103866435/175755922-0fbd0e33-2ba4-4eb1-b09f-9627a807994a.png)
 ![Screenshot 2022-06-24 11 01 28 PM](https://user-images.githubusercontent.com/103866435/175755923-4f9248b2-c553-4aea-bc0c-bb081287155a.png)
 I went back and fixed my form still looks a bit out of wack I added my footer and the legal, the footer got a bit messed up for some reason the list is over going on the same line.
+DAY FOUR ( mobile day)
+ 1. Something was wrong with my buttons I had no clue what it was so I decided to comb through all the code and figured it out, my code looked correct but when I pulled up the console it said my btn had 40px top & bottom which was no where in my code. So I moved and came back to later I ended up just setting button with all the css and taking btn class off of my buttons whihc fixed the problem but then my bootstrap buttons went out of wack they have a hover affect which is not needed a problem i will come back to. Looking for problems I found I had grabbed the ul, li, a for my footer but that grabbed all of my ul,li, & a so now they all have the css which I have to figure otu how to fix later. I got the background correct for my featured section. I also got my footer to have a menu on mobile which is nice. I got my form to look correct mobile to taking up 12 and then 6 on mobile.
+ ![Screenshot 2022-06-26 12 04 27 AM](https://user-images.githubusercontent.com/103866435/175798988-df5fc571-0a55-47d6-9360-250a9097028b.png)
+![Screenshot 2022-06-26 12 04 14 AM](https://user-images.githubusercontent.com/103866435/175798989-8df05e7a-8ee3-488b-9e4c-5d700c93bc6d.png)
+![Screenshot 2022-06-26 12 03 54 AM](https://user-images.githubusercontent.com/103866435/175798990-e001a758-6e09-4cc3-a5b7-5840d79ac9d6.png)
+![Screenshot 2022-06-26 12 03 47 AM](https://user-images.githubusercontent.com/103866435/175798991-338df43c-9b81-49dd-9a75-296a6b534879.png)
+![Screenshot 2022-06-26 12 03 31 AM](https://user-images.githubusercontent.com/103866435/175798993-78d67e4e-4864-4b33-8dd0-2995fb019509.png)
 
 ### Code Splitting
 
