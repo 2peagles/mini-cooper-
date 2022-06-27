@@ -12,6 +12,7 @@ export const Contact = () => {
         <Col xs={12} sm={6}>
         <div className='formcontent'>
         <h1 className='contactheading'>stay in the loop</h1>
+        <span><hr></hr></span>
         <p>Join our email list to receive MINI updates, news, offers and more. And don't worry, we won't share your information with anyone else.</p>   
       <Form>
                 <Row className='formrow'>
@@ -36,7 +37,7 @@ export const Contact = () => {
         </Form.Group>
               </Col>
               <Col>
-              <Form.Group className="mb-3 d-inline-block" controlId="formBasic">
+              <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label className='label'>Zip Code</Form.Label>
                       <Form.Control type="text" className='input' />
         </Form.Group>
@@ -50,23 +51,23 @@ export const Contact = () => {
       </div>
         </Col>
       <Col className='contact-icons' xs={12} sm={6}>
-      <ul>
-        <li> 
+      <ul className='contactul'>
+        <li className='contactli'> 
           <a href='/'>
              <FaFacebookF  className='contact-icon'/> 
             </a>
           </li>
-        <li> 
+              <li className='contactli'> 
                 <a href='/'>
           <ImInstagram className='contact-icon' />
             </a>
            </li>
-        <li>
+              <li className='contactli'>
            <a href='/'>
              <FaTwitter className='contact-icon'/> 
             </a>
            </li>
-        <li> 
+              <li className='contactli'> 
           <a href='/'>
              <ImYoutube2 className='contact-icon' />
             </a>

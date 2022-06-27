@@ -13,7 +13,7 @@ import MINI from '../../Images/MINI.jpg'
 import './Navigation.css'
 export const Navigation = () => {
   return (
-      <Navbar variant="light" bg="light" expand="lg">
+      <Navbar variant="light" bg="light" expand="lg" >
           <Container fluid>
               <Navbar.Brand href="#home"><img src={MINI} alt='MINI logo' height='75px'/></Navbar.Brand>
               <Navbar.Toggle aria-controls="nav-dropdown-example" />

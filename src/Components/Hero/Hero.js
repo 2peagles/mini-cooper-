@@ -1,8 +1,9 @@
 import React from 'react';
-import {  Carousel } from 'react-bootstrap'
+import {  Carousel } from 'react-bootstrap';
+import minilandfield from '../../Images/minilandfield.webp';
 import  convertible  from '../../Images/convertible.jpeg'
 import johnworks from '../../Images/johnworks.jpeg'
-import minieletric from '../../Images/minieletric.png'
+// import minieletric from '../../Images/minieletric.png'
 import fourdoor from '../../Images/fourdoor.jpg'
 import './Hero.css'
 
@@ -11,20 +12,14 @@ export const Hero = () => {
     <Carousel variant="dark">
       <Carousel.Item>
         <img
-          className="d-block w-100 h-30 img"
-          src={minieletric}
+          className="d-block w-100 h-100 img"
+          src={minilandfield}
           alt="First slide"
         />
-
-        <Carousel.Caption>
-          <h2>MIni takes the states july 9 -july 17</h2>
-          <p>We're back on track and we're ready to rally - togther with our MINI community! The 8th edition of MINI TAKES THE STATES will happen starting Saturaday, July 9th and ending sunday July 17th from Burlington Vernmont to Greenville Spartanburg South Carolina.</p>
-          <button>Learn More </button>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 img"
+          className="d-block w-100 h-100 img"
           src={convertible}
           alt="Second slide"
         />
@@ -37,7 +32,7 @@ export const Hero = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 img"
+          className="d-block w-100 h-100 img"
           src={johnworks}
           alt="Third slide"
         />
@@ -54,13 +49,20 @@ export const Hero = () => {
           src={fourdoor}
           alt="Third slide"
         />
-
         <Carousel.Caption>
           <h2>mini shop @home</h2>
           <p>We want to make your MINI online  experience as easy as possible .Here, you'll find all of your MINI questions answered before you contact your dealer.</p>
           <button>Learn More </button>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        
+          <h2>mini shop @home</h2>
+          <p>We want to make your MINI online  experience as easy as possible .Here, you'll find all of your MINI questions answered before you contact your dealer.</p>
+          <button>Learn More </button>
+    
+      </Carousel.Item>
+
     </Carousel>
   )
 }

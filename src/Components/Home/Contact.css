@@ -1,4 +1,5 @@
 .form{
+    padding:25px 0px;
     background-color: #f1f1f1;
 }
 .formrow {
@@ -6,7 +7,7 @@
 }
 .formcontainer{
     padding:0px 25px;
-    margin:0;
+    margin:0px;
 }
 .contactheading{
     font-size: 32px;
@@ -35,22 +36,24 @@
     background-color: #ac2430;
     border-color: #ac2430;
 }
-/* li{
+.contact-icon {
+    font-size: 2rem;
+    margin: 7px;
+    display: inline-block;
+}
+.contactli{
     font-size:32px;
     padding:8px;
     list-style-type: none;
     display: inline-block;
-} */
-.contact-icon{
-    font-size: 2rem;
-    margin:7px;
-    display: inline-block;
 }
-/* ul{
+
+.contactul{
     text-align: right;
-} */
+     
+}
 @media screen {
-    ul{
+    .contactul{
         text-align: center;
     }
 }

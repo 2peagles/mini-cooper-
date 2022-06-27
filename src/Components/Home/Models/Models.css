@@ -1,21 +1,25 @@
 .modelcontainer{
     text-transform: uppercase;
     color: #000;
-    padding:40px 0px;
+    padding:40px 40px;
+    min-height: 100vh;
     font-family: MiniSerif, Times, Times New Roman, Georgia, serif;
 }
-.container{
+/* .container{
     padding: 40px 0px;
     text-align: center;
-}
-h1{
+} */
+.modeltitle{
     font-size: 32px;
     padding:0 25px 50px;
 }
-h3{
+.modelname{
     font-size: 22px;
 }
 .home-model-img{
     height:106px;
     width:250px;
+}
+.modelcontent{
+    padding:0px 40px;
 }

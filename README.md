@@ -29,6 +29,15 @@ DAY FOUR ( mobile day)
 ![Screenshot 2022-06-26 12 03 54 AM](https://user-images.githubusercontent.com/103866435/175798990-e001a758-6e09-4cc3-a5b7-5840d79ac9d6.png)
 ![Screenshot 2022-06-26 12 03 47 AM](https://user-images.githubusercontent.com/103866435/175798991-338df43c-9b81-49dd-9a75-296a6b534879.png)
 ![Screenshot 2022-06-26 12 03 31 AM](https://user-images.githubusercontent.com/103866435/175798993-78d67e4e-4864-4b33-8dd0-2995fb019509.png)
+I fixed the contact icons, that was simple just adding a classname and reapplying the li,ul,a css
+I fixed the boxes on the card/feature section, adding an extra col and then fixing the padding/margin as well as adding @media max-width 500px to ajust teh padding/margin and added bootstrap responsive xs md.
+I played with the biglove section a big as well just to clean up the code,
+I looked at the slideshow and tried to figure out the nav which is tommorows problem. I have no clue why the nav as dropdown is gone. I think it might be bc of the @media I did for my footer. 
+![Screenshot 2022-06-27 12 48 34 AM](https://user-images.githubusercontent.com/103866435/175862220-3468d6d5-6331-4648-993f-f6ba3a8510f3.png)
+![Screenshot 2022-06-27 12 48 18 AM](https://user-images.githubusercontent.com/103866435/175862223-e866375b-c3e9-4abf-9588-1d5c6ca6cdd2.png)
+![Screenshot 2022-06-27 12 48 03 AM](https://user-images.githubusercontent.com/103866435/175862227-7eba6fc8-ab1c-48d9-b865-fa0ff62e1895.png)
+![Screenshot 2022-06-27 12 47 53 AM](https://user-images.githubusercontent.com/103866435/175862229-2e776f79-0746-43d6-bce5-5d0b9806bf74.png)
+![Screenshot 2022-06-27
 
 ### Code Splitting
 
