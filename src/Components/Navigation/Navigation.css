@@ -17,5 +17,44 @@
           background-color: #fff;
     }
     .icon{
+        font-size: 2rem;
         color:#ac2430;
+        padding-right:5px;
     }
+
+#nav-dropdown-dark-example::after{
+    display: none !important;
+}
+
+#nav-dropdown::after{
+    display: none !important;
+}
+
+#nav-dropdown-dark-example, #nav-dropdown , .right-nav{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: MiniSans, Arial, sans-serif;
+}
+ #dropdown-button-drop-end.dropdown-toggle.btn.btn-light::after{
+    display: none;
+}
+.nav-dropdown-item{
+    color: #000;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: MiniSans, Arial, sans-serif;
+}
+.dropdown-menu.show.dropdown-menu-light{
+    margin:0px 10%;
+}
+.hidden{
+    display: none;
+}
+/* @media screen and (min-width:1280px ) {
+    .dropdown-menu.show.dropdown-menu-light {
+            margin:0;
+            width:100%;
+            background-color: #000;
+        }
+} */

@@ -4,7 +4,7 @@ import { VscTools } from 'react-icons/vsc';
 import { FaCarSide, FaRegHeart } from 'react-icons/fa';
 import { TbSteeringWheel, TbFlag, TbWorld } from 'react-icons/tb'
 import { RiRulerLine, RiBookmark3Line } from 'react-icons/ri';
-import { IoIosPaper, IoIosSearch, IoIosPricetag } from 'react-icons/io';
+import { IoIosPaper, IoIosSearch, IoIosPricetag, IoIosArrowForward } from 'react-icons/io';
 import { HiOutlineShoppingBag, HiOutlineColorSwatch, HiOutlineLocationMarker } from 'react-icons/hi';
 import { MdOutlineSportsMotorsports, MdSlowMotionVideo, MdOutlinePersonalVideo } from 'react-icons/md';
 import { Navbar, Nav, NavDropdown, Container, Dropdown, DropdownButton, ButtonGroup,Row, Col } from 'react-bootstrap';
@@ -16,7 +16,7 @@ export const Navigation = () => {
       <Navbar variant="light" bg="light" expand="lg" >
           <Container fluid>
               <Navbar.Brand href="#home"><img src={MINI} alt='MINI logo' height='75px'/></Navbar.Brand>
-              <Navbar.Toggle aria-controls="nav-dropdown-example" />
+              <Navbar.Toggle aria-controls="nav-dropdown-example"/>
               <Navbar.Collapse id="navbar-dark-example">
                   <Nav >
                       <NavDropdown
@@ -25,30 +25,32 @@ export const Navigation = () => {
                           menuVariant="light"
                           className='position-static p-3  justify-content-start'
                       >
-                          <Row>
+                          <Row className='navrow'>
                               <Col>
-                                  <NavDropdown.Item href="#action/3.1" className='mt-0 w-100 p-4 ml-4 justify-content-start'>
-                            < img src={fourdoor} alt='cooper gray' height='150px' className='d-block'/>
-                                 MINI HARDTOP 2 DOOR
-                                    <button className='navbtn d-block'>explore</button>
-                                    <button className='navbtn navbtnoffer  '>offers</button>
+                                  <NavDropdown.Item href="#action/3.1" className='mt-0 w-100 p-4 ml-4 '>
+                                    <Col className='navmodel'>
+                                    <img src={fourdoor} alt='cooper gray' height='150px' className='d-block '/>
+                                         MINI HARDTOP 2 DOOR
+                                          <button className=' navbtn d-block hidden'>explore</button>
+                                          <button className='navbtn navbtnoffer  '>offers</button>
+                                      </Col>
                                 </NavDropdown.Item>
                               </Col>
                           <Col>
                                   <NavDropdown.Item href="#action/3.2" className='mt-0 w-100 p-4 ml-4 '>
                                       < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
-                            MINI HARDTOP 4 DOOR
-                              <button className='navbtn d-block'>explore</button>
-                              <button className='navbtn navbtnoffer d-block'>offers</button>
-                              </NavDropdown.Item>
+                                        MINI HARDTOP 4 DOOR
+                                        <button className='navbtn d-block' >explore</button>
+                                        <button className='navbtn navbtnoffer'>offers</button>
+                                     </NavDropdown.Item>
                               </Col>
                           <Col>
                                   <NavDropdown.Item href="#action/3.3" className='mt-0 w-100 p-4 ml-4 '>
                                       < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
-                                MINI COUNTRYMAN
-                              <button className='navbtn d-block'>explore</button>
-                              <button className='navbtn navbtnoffer d-block'>offers</button>
-                            </NavDropdown.Item>
+                                        MINI COUNTRYMAN
+                                        <button className='navbtn d-block'>explore</button>
+                                        <button className='navbtn navbtnoffer d-block'>offers</button>
+                                    </NavDropdown.Item>
                               </Col>
                           <Col>
                                   <NavDropdown.Item href="#action/3.4" className='mt-0 w-100 p-4 ml-4 '>
@@ -59,7 +61,7 @@ export const Navigation = () => {
                               </NavDropdown.Item>
                               </Col>
                       </Row>
-                          <Row>
+                          <Row className='navrow'>
                           <Col>
                           <NavDropdown.Item href="#action/3.4">
                                       < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
@@ -106,8 +108,8 @@ export const Navigation = () => {
                           menuVariant="light"
                           className='p-3'
                       >
-                          <NavDropdown.Item href="#action/3.1" className='p-4'>  <VscTools  className='icon'/> build a new mini</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.2" className='p-4'>  <FaCarSide classname='icon' /> your saved mini</NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.1" className='p-4 '>  <VscTools  className='icon'/> build a new mini</NavDropdown.Item>
+                          <NavDropdown.Item href="#action/3.2" className='p-4'>  <FaCarSide className='icon' /> your saved mini</NavDropdown.Item>
                           <NavDropdown.Item href="#action/3.3" className='p-4'>  <HiOutlineShoppingBag className='icon' /> shop your accessories</NavDropdown.Item>
                       </NavDropdown>
                       <NavDropdown
@@ -128,9 +130,11 @@ export const Navigation = () => {
                                       id={`dropdown-button-drop-${direction}`}
                                       drop={direction}
                                       variant="light"
-                                      title={` top reasons to get a mini  ${direction} `}
-                                      className='position-static p-4'
+                                      title={` top reasons to get a mini ${direction} `}
+                                      className='position-static'
+                                      class='IoIosArrowForward'
                                   >
+                                      <i><IoIosArrowForward></IoIosArrowForward></i>
                                       <Dropdown.Item eventKey="1" className='h-100 p-2'>premium quality & value</Dropdown.Item>
                                       <Dropdown.Item eventKey="2" className='h-100 p-2'>covered maintenance</Dropdown.Item>
                                       <Dropdown.Item eventKey="1" className='h-100 p-2'>exceptioinal safety</Dropdown.Item>
@@ -149,7 +153,7 @@ export const Navigation = () => {
                                       drop={direction}
                                       variant="light"
                                       title={` progrmas & events ${direction} `}
-                                      className='position-static p-4'
+                                      className='position-static'
                                   >
                                       <Dropdown.Item eventKey="1" className='h-100 p-2'> MINI MOTORSPORTS</Dropdown.Item>
                                       <Dropdown.Item eventKey="2" className='h-100 p-2'> MINI YOURS</Dropdown.Item>
@@ -178,7 +182,7 @@ export const Navigation = () => {
                                       drop={direction}
                                       variant="light"
                                       title={` shopping tools ${direction} `}
-                                      className='position-static p-4'
+                                      className='position-static '
                                   >
                                       <Dropdown.Item eventKey="1" className='h-100 p-2'>estimate a payment</Dropdown.Item>
                                       <Dropdown.Item eventKey="2" className='h-100 p-2'>value your trade-in</Dropdown.Item>
@@ -198,7 +202,7 @@ export const Navigation = () => {
                                       drop={direction}
                                       variant="light"
                                       title={` finance & protection ${direction} `}
-                                      className='position-static p-4'
+                                      className='position-static'
                                   >
                                       <Dropdown.Item eventKey="1" className='h-100 p-2'>Apply for financing</Dropdown.Item>
                                       <Dropdown.Item eventKey="2" className='h-100 p-2'>lease & finance plans</Dropdown.Item>
@@ -234,7 +238,7 @@ export const Navigation = () => {
                                       drop={direction}
                                       variant="light"
                                       title={` services & support  ${direction} `}
-                                      className='position-static p-4'
+                                      className='position-static navdropdownbutton'
                                   >
                                       <Dropdown.Item eventKey="1" className='h-100 p-2'>find recalls</Dropdown.Item>
                                       <Dropdown.Item eventKey="2" className='h-100 p-2'>customer support </Dropdown.Item>
@@ -253,7 +257,7 @@ export const Navigation = () => {
                                       drop={direction}
                                       variant="light"
                                       title={` ownder community ${direction} `}
-                                      className='position-static p-5'
+                                      className='position-static '
                                   >
                                       <Dropdown.Item eventKey="1" className='h-100 p-2'>min driving experience</Dropdown.Item>
                                       <Dropdown.Item eventKey="2" className='h-100 p-2'>find owner clubs</Dropdown.Item>
@@ -265,11 +269,11 @@ export const Navigation = () => {
                           </div>
                       </NavDropdown>
               </Nav>
-                  <Nav className="float-right ">
+                  <Nav className="">
                       <Navbar.Brand href="#home"><img src={MINI} alt='MINI logo' height='25px' /></Navbar.Brand>
-                      <Nav.Link href="#home">certified pre-owned</Nav.Link>
-                      <Nav.Link href="#link">Special Offers</Nav.Link>
-                      <Nav.Link href="#home"> dealers & locations</Nav.Link>
+                      <Nav.Link href="#home" className='right-nav'>certified pre-owned</Nav.Link>
+                      <Nav.Link href="#link" className='right-nav'>Special Offers</Nav.Link>
+                      <Nav.Link href="#home" className='righ-nav'>dealers & locations</Nav.Link>
                   </Nav>
             
               </Navbar.Collapse>
