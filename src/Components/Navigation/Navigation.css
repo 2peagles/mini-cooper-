@@ -51,6 +51,16 @@
 .hidden{
     display: none;
 }
+.navmodel:hover + .hidden{
+    display: block;
+}
+.navmodelbottom{
+    padding:20px;
+}
+.navmodeltitle{
+    font-size: 22px;
+    font-weight: bold;
+}
 /* @media screen and (min-width:1280px ) {
     .dropdown-menu.show.dropdown-menu-light {
             margin:0;

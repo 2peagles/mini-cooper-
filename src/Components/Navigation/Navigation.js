@@ -28,80 +28,111 @@ export const Navigation = () => {
                           <Row className='navrow'>
                               <Col>
                                   <NavDropdown.Item href="#action/3.1" className='mt-0 w-100 p-4 ml-4 '>
-                                    <Col className='navmodel'>
-                                    <img src={fourdoor} alt='cooper gray' height='150px' className='d-block '/>
+                                    <img src={fourdoor} alt='cooper gray' height='150px' className='d-block navmodel '/>
                                          MINI HARDTOP 2 DOOR
-                                          <button className=' navbtn d-block hidden'>explore</button>
-                                          <button className='navbtn navbtnoffer  '>offers</button>
-                                      </Col>
+                                         <div className='hidden'>
+                                            <button className=' navbtn d-block '>explore</button>
+                                        <button className='navbtn navbtnoffer '>offers</button>
+                                    </div>
                                 </NavDropdown.Item>
                               </Col>
                           <Col>
                                   <NavDropdown.Item href="#action/3.2" className='mt-0 w-100 p-4 ml-4 '>
-                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
+                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block navmodel' />
                                         MINI HARDTOP 4 DOOR
-                                        <button className='navbtn d-block' >explore</button>
-                                        <button className='navbtn navbtnoffer'>offers</button>
+                                            <div className='hidden'>
+                                             <button className='navbtn d-block' >explore</button>
+                                            <button className='navbtn navbtnoffer'>offers</button>
+                                        </div>
                                      </NavDropdown.Item>
                               </Col>
                           <Col>
                                   <NavDropdown.Item href="#action/3.3" className='mt-0 w-100 p-4 ml-4 '>
-                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
+                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block navmodel' />
                                         MINI COUNTRYMAN
-                                        <button className='navbtn d-block'>explore</button>
-                                        <button className='navbtn navbtnoffer d-block'>offers</button>
+                                            <div className='hidden'>
+                                                <button className='navbtn d-block'>explore</button>
+                                            <button className='navbtn navbtnoffer d-block'>offers</button>
+                                         </div>
                                     </NavDropdown.Item>
                               </Col>
                           <Col>
                                   <NavDropdown.Item href="#action/3.4" className='mt-0 w-100 p-4 ml-4 '>
-                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
-                            MIIN CLUBMAN
-                              <button className='navbtn d-block'>explore</button>
-                              <button className='navbtn navbtnoffer d-block'>offers</button>
-                              </NavDropdown.Item>
+                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block navmodel' />
+                                        MIIN CLUBMAN
+                                            <div className='hidden'>
+                                                  <button className='navbtn d-block'>explore</button>
+                                            <button className='navbtn navbtnoffer d-block'>offers</button>
+                                     </div>
+                                </NavDropdown.Item>
                               </Col>
                       </Row>
                           <Row className='navrow'>
                           <Col>
                           <NavDropdown.Item href="#action/3.4">
-                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
-                            MIIN CONVERTIBLE
-                              <button className='navbtn d-block'>explore</button>
-                              <button className='navbtn navbtnoffer d-block'>offers</button>
-                              </NavDropdown.Item>
+                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block navmodel' />
+                                        MIIN CONVERTIBLE
+                                         <div className='hidden'>
+                                            <button className='navbtn d-block'>explore</button>
+                                            <button className='navbtn navbtnoffer d-block'>offers</button>
+                                      </div>
+                                    </NavDropdown.Item>
                               </Col>
                           <Col>
                           <NavDropdown.Item href="#action/3.4"> 
-                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
-                          JOHN COOPER WORKS
-                              <button className='navbtn d-block'>explore</button>
-                              <button className='navbtn navbtnoffer d-block'>offers</button>
-                              </NavDropdown.Item>
+                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block navmodel' />
+                                        JOHN COOPER WORKS
+                                        <div className='hidden'>
+                                            <button className='navbtn d-block'>explore</button>
+                                             <button className='navbtn navbtnoffer d-block'>offers</button>
+                                        </div>
+                                    </NavDropdown.Item>
                               </Col>
                           <Col>
                           <NavDropdown.Item href="#action/3.4"> 
-                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
-                            MIIN ELECTRIC
-                              <button className='navbtn d-block'>explore</button>
-                              <button className='navbtn navbtnoffer d-block'>offers</button>
-                              </NavDropdown.Item>
+                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block navmodel' />
+                                        MIIN ELECTRIC
+                                        <div className='hidden'>
+                                            <button className='navbtn d-block'>explore</button>
+                                            <button className='navbtn navbtnoffer d-block'>offers</button>
+                                        </div>
+                                    </NavDropdown.Item>
                               </Col>
                           <Col>
                           <NavDropdown.Item href="#action/3.4"> 
-                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
-                            SPECIAL EDITIONS
-                              <button className='navbtn d-block'>explore</button>
-                              <button className='navbtn navbtnoffer d-block'>offers</button>
-                              </NavDropdown.Item>
-                              </Col>
+                                < img src={fourdoor} alt='cooper gray' height='150px' className='d-block navmodel' />
+                                    SPECIAL EDITIONS
+                                        <div className='hidden'>
+                                            <button className='navbtn d-block'>explore</button>
+                                                <button className='navbtn navbtnoffer d-block'>offers</button>
+                                             </div>
+                                        </NavDropdown.Item>
+                                    </Col>
                               </Row>
-                          <Row>
+                          <Row >
                           <NavDropdown.Divider/>
-                              <Col > <NavDropdown.Item href="#action/3.4"> CERTIFIED PRE-OWNED </NavDropdown.Item></Col>
-                              <Col > <NavDropdown.Item href="#action/3.4">  <FaCarSide /> ALL MODELS</NavDropdown.Item></Col>
-                              <Col ><NavDropdown.Item href="#action/3.4">  <IoIosSearch /> SEARCH ALL INVENTORY</NavDropdown.Item></Col>
+                              <Col className='navmodelbottom' >
+                                 <NavDropdown.Item href="#action/3.4">
+                                      <h3 className='navmodeltitle'>CERTIFIED PRE-OWNED</h3>  
+                                     <p>Search CPO inventory</p>
+                                 </NavDropdown.Item>
+                                 </Col>
+                                 <Col className='navmodelbottom' > 
+                                    <NavDropdown.Item href="#action/3.4">  
+                                        <FaCarSide class='d-block'/> 
+                                            <h3 className='navmodeltitle'>ALL MODELS</h3>
+                                            <p>Which MINI is right for you?</p>
+                                        </NavDropdown.Item>
+                                    </Col>
+                                    <Col className='navmodelbottom' >
+                                        <NavDropdown.Item href="#action/3.4">
+                                            <IoIosSearch class='d-block' /> 
+                                                <h3 classname='navmodeltitle'>SEARCH ALL INVENTORY</h3> 
+                                                <p>Broswe Models Near You</p>
+                                         </NavDropdown.Item>
+                                    </Col>
                               </Row>
-                      </NavDropdown>
+                        </NavDropdown>
                       <NavDropdown
                           id="nav-dropdown-dark-example"
                           title="BUILD"

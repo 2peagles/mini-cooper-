@@ -44,6 +44,9 @@ Day FIVE
     I got the dropdown button to go away got the correct font and size fixed the margin on the first dropdown menu. I need to add the space, and get the button to hide.
     ![Screenshot 2022-06-28 2 06 29 AM](https://user-images.githubusercontent.com/103866435/176105462-2882e429-6756-4975-af0c-5d4d81aa6f1c.png)
     ![Screenshot 2022-06-28 2 06 19 AM](https://user-images.githubusercontent.com/103866435/176105473-a6f7bba8-b63c-4254-b80f-0a5a6cb9b1c0.png)
+    oops i got, I put the hove on the end of the wrong selector. the button is showing now on hover.
+    ![Screenshot 2022-06-28 2 31 18 AM](https://user-images.githubusercontent.com/103866435/176109148-54b43e9a-2878-425a-b56b-a86a7a816660.png)
+
 
 ### Code Splitting
 
