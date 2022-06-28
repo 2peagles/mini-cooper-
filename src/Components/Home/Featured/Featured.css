@@ -45,11 +45,15 @@ a:hover {
 .featuredcontentcontainer {
     padding: 30px;
     margin: 10px;
+    
     background-color: #fff;
 }
 .featured-content{
     padding:10px;
 }
+/* .featured-container{
+    height:900px;
+} */
 @media screen  and (max-width:500px){
     .featured {
             padding: 2px 2px;

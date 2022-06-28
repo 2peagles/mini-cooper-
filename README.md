@@ -38,7 +38,9 @@ I looked at the slideshow and tried to figure out the nav which is tommorows pro
 ![Screenshot 2022-06-27 12 48 03 AM](https://user-images.githubusercontent.com/103866435/175862227-7eba6fc8-ab1c-48d9-b865-fa0ff62e1895.png)
 ![Screenshot 2022-06-27 12 47 53 AM](https://user-images.githubusercontent.com/103866435/175862229-2e776f79-0746-43d6-bce5-5d0b9806bf74.png)
 ![Screenshot 2022-06-27
-
+Day FIVE
+    Starting off with the navigation just a matter of adding a class to my footer, dropdown and now my navigation dropdown is visable again. So the problem now is the footer button color/ width is now not working. ok I got everything to work correctly,the only thing is pushing the icon to the right and making sure the dropdown goes down and not up looks wise it's pretty darn close the code could be cleaner but I can fix that at the veery end;) time to fix the navigation.
+    ![Screenshot 2022-06-27 11 38 21 PM](https://user-images.githubusercontent.com/103866435/176086889-ffbc0287-90b5-4c7d-a3e4-ad81c061a1a1.png)
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)

@@ -27,7 +27,7 @@ export const Navigation = () => {
                       >
                           <Row>
                               <Col>
-                                  <NavDropdown.Item href="#action/3.1" className='mt-0 w-100 p-4 ml-4 justify-content-start '>
+                                  <NavDropdown.Item href="#action/3.1" className='mt-0 w-100 p-4 ml-4 justify-content-start'>
                             < img src={fourdoor} alt='cooper gray' height='150px' className='d-block'/>
                                  MINI HARDTOP 2 DOOR
                                     <button className='navbtn d-block'>explore</button>

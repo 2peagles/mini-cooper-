@@ -1,12 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Dropdown} from 'react-bootstrap';
-import { BsPlus } from 'react-icons/bs'
-// import { AiOutlineMinus } from 'react-icons/ai';
+import { BsPlus } from 'react-icons/bs';
 import './Footer.css';
 
 export const Footer = () => {
   return (
-    <>
+    <section className='footer-section'>
     <Container fluid className='footer-container'>
       <Row md={4}>
         <Col >
@@ -76,13 +75,15 @@ export const Footer = () => {
         </Col>
       </Row>
     </Container>
-      <Dropdown>
+    <hr className='footer-hr'></hr>
+      <Dropdown id='footer-dropdown'>
         <Dropdown.Toggle variant="light" id="dropdown-basic" onclick="myFunction(this)"
-          class="bs-plus " >
-          Models <BsPlus/>
+          class="bs-plus" >
+          Models 
+          <i ><BsPlus className='dropdown-toggle-button'></BsPlus> </i>
         </Dropdown.Toggle>
   
-        <Dropdown.Menu>
+        <Dropdown.Menu className='footer-menu'>
           <Dropdown.Item href="#/action-1">electric models | mini usua</Dropdown.Item>
           <Dropdown.Item href="#/action-2">mini countryman</Dropdown.Item>
           <Dropdown.Item href="#/action-3">mini hardtop 2 door</Dropdown.Item>
@@ -95,13 +96,15 @@ export const Footer = () => {
           <Dropdown.Item href="#/action-3">all models</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown>
+      <hr className='footer-hr'></hr>
+      <Dropdown id='footer-dropdown'>
         <Dropdown.Toggle variant='light' id="dropdown-basic" onclick="myFunction(this)"
-          class="bs-plus">
-          why mini <BsPlus />
+          class="bs-plus" >
+          why mini
+          <i ><BsPlus className='dropdown-toggle-button'></BsPlus> </i>
         </Dropdown.Toggle>
 
-        <Dropdown.Menu>
+        <Dropdown.Menu className='footer-menu'>
           <Dropdown.Item href="#/action-1">premium quality & value</Dropdown.Item>
           <Dropdown.Item href="#/action-2">covered maintenance</Dropdown.Item>
           <Dropdown.Item href="#/action-3">for the drive</Dropdown.Item>
@@ -115,13 +118,15 @@ export const Footer = () => {
           <Dropdown.Item href="#/action-3">60 years of motoring</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown>
+      <hr className='footer-hr'></hr>
+      <Dropdown id='footer-dropdown'>
         <Dropdown.Toggle variant="light" id="dropdown-basic" onclick="myFunction(this)"
-          class="bs-plus">
-          shopping<BsPlus />
+          class="bs-plus" >
+          shopping
+          <i ><BsPlus className='dropdown-toggle-button'></BsPlus> </i>
         </Dropdown.Toggle>
 
-        <Dropdown.Menu>
+        <Dropdown.Menu className='footer-menu'>
           <Dropdown.Item href="#/action-1">build a new mini</Dropdown.Item>
           <Dropdown.Item href="#/action-2">certified pre-owned</Dropdown.Item>
           <Dropdown.Item href="#/action-3">us. diplomatice sale program</Dropdown.Item>
@@ -134,13 +139,14 @@ export const Footer = () => {
           <Dropdown.Item href="#/action-3">estimate a payment</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Dropdown>
-        <Dropdown.Toggle variant="light" id="dropdown-basic" onclick="myFunction(this)"
-          class="bs-plus">
-          legal<BsPlus />
+      <hr className='footer-hr'></hr>
+      <Dropdown id='footer-dropdown'>
+        <Dropdown.Toggle variant="light" id="dropdown-basic" onclick="myFunction(this)" class='bs-plus'>
+          legal 
+          <i ><BsPlus className='dropdown-toggle-button'></BsPlus> </i>
         </Dropdown.Toggle>
 
-        <Dropdown.Menu>
+        <Dropdown.Menu className='footer-menu'>
           <Dropdown.Item href="#/action-1">safety and emission recalls</Dropdown.Item>
           <Dropdown.Item href="#/action-2">contact us</Dropdown.Item>
           <Dropdown.Item href="#/action-3">mini accessibility statement</Dropdown.Item>
@@ -151,6 +157,19 @@ export const Footer = () => {
           <Dropdown.Item href="#/action-3">mini dealer careers</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-    </>
+      <hr className='footer-hr'></hr>
+      <Dropdown id='footer-dropdown'>
+        <Dropdown.Toggle variant="light" id="dropdown-basic" onclick="myFunction(this)"
+          class="bs-plus" >
+          careers
+           <i ><BsPlus className='dropdown-toggle-button'></BsPlus> </i>
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu className='footer-menu'>
+          <Dropdown.Item href="#/action-1">mini careers</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">mini dealer careers</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+    </section>
   )
 }

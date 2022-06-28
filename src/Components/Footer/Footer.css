@@ -40,25 +40,40 @@ hr{
 .footer-container{
     margin:0px 0px 50px 0px;
 }
- @media screen {
-    .menu{
-        display: flex;
-    }
-}
 @media screen and  (max-width: 1024px){
     .footer-container{
         display: none;
     }
 }
+
 @media screen and (min-width:1025px) {
-    .dropdown-toggle, .dropdown-menu { 
+    #dropdown-basic, .footer-menu { 
             display: none;
         }
+      .footer-hr {
+             display: none;
+        }
 }
-.dropdown-toggle::after{
+
+#dropdown-basic::after{
     display: none !important;
 }
-.dropdown-toggle, .dropdown-menu{
+#dropdown-basic, .footer-menu{
     width:100%;
     text-align: left;
-} 
+    padding:0;
+    font-weight: bold;
+    background-color: #fff;
+}
+#footer-dropdown{
+    padding: 0px 20px;
+}
+.footer-hr{
+    width:98%;
+}
+.footer-section{
+    margin:50px 0px;
+}
+.dropdown-toggle-button{
+    font-size: 2rem;
+}
