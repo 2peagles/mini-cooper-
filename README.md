@@ -46,7 +46,12 @@ Day FIVE
     ![Screenshot 2022-06-28 2 06 19 AM](https://user-images.githubusercontent.com/103866435/176105473-a6f7bba8-b63c-4254-b80f-0a5a6cb9b1c0.png)
     oops i got, I put the hove on the end of the wrong selector. the button is showing now on hover.
     ![Screenshot 2022-06-28 2 31 18 AM](https://user-images.githubusercontent.com/103866435/176109148-54b43e9a-2878-425a-b56b-a86a7a816660.png)
-
+    DAY SiX
+        Jeez the nav is getting to be a massive task i'm so close to being at the touch up faze. So I got the hover to not moves so much and for the nav to expland fully with @media and then I still have to make sure when the nav is in the menu icon it match's upI haven't done that yet ,  I think it will be fairly easy. Then just a matter of clean up!
+        ![Screenshot 2022-06-28 9 06 44 PM](https://user-images.githubusercontent.com/103866435/176330016-b3551af2-113a-4150-9a39-ebc6a8f49a3b.png)
+![Screenshot 2022-06-28 9 07 10 PM](https://user-images.githubusercontent.com/103866435/176330017-cda11cc6-bdc2-4229-b8ec-d511a2cb7a15.png)
+![Screenshot 2022-06-28 9 06 55 PM](https://user-images.githubusercontent.com/103866435/176330019-02cb06ff-4d20-45b0-a3ec-86223adba099.png)
+My menu is messed up for some reason it's not appearing I might have done that yesterday trying to get the downarrows gone. So I guess that's next.
 
 ### Code Splitting
 

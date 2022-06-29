@@ -1,26 +1,47 @@
-    .navbtn{
+ .navbar {
+      padding: 0px 30px;
+     background-color: #fff;
+}
+.navmodelname{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: MiniSerif, Times, Times New Roman, Georgia, serif;
+}
+ .navmodeltitle {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: MiniSerif, Times, Times New Roman, Georgia, serif;
+}
+
+.navsubtitle {
+        font-size: 14px;
+        padding:5px;
+        text-transform: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .navbtn{
         color:white;
         border: none;
         padding:5px 20px;
         text-transform: uppercase;
         background-color: #ac2430;
-    }
-    .navbtnoffer {
+}
+.navbtnoffer {
        color: white;
         border: none;
         background-color: black;
-      }
-      .navbtn:hover {
+}
+ .navbtn:hover {
           color: #000;
           padding: 5px 20px;
           border:1px solid #000;
           background-color: #fff;
-    }
-    .icon{
+}
+ .icon{
         font-size: 2rem;
         color:#ac2430;
         padding-right:5px;
-    }
+}
 
 #nav-dropdown-dark-example::after{
     display: none !important;
@@ -39,14 +60,9 @@
  #dropdown-button-drop-end.dropdown-toggle.btn.btn-light::after{
     display: none;
 }
-.nav-dropdown-item{
-    color: #000;
-        font-size: 14px;
-        font-weight: bold;
-        font-family: MiniSans, Arial, sans-serif;
-}
 .dropdown-menu.show.dropdown-menu-light{
     margin:0px 10%;
+    padding:0px 30px;
 }
 .hidden{
     display: none;
@@ -55,16 +71,24 @@
     display: block;
 }
 .navmodelbottom{
-    padding:20px;
+    padding:10px 0px 0px 0px;
 }
-.navmodeltitle{
-    font-size: 22px;
-    font-weight: bold;
+
+.navmodelicon{
+    font-size: 2rem;
 }
-/* @media screen and (min-width:1280px ) {
+ /* .dropdown-item{
+    padding:24px;
+    background-color: #fff;
+} */
+/* .navmodelcontainer{
+    padding:3px 24px;
+} */
+
+@media screen and  (min-width:1285px) and (max-width:1290px) {
     .dropdown-menu.show.dropdown-menu-light {
             margin:0;
             width:100%;
-            background-color: #000;
+            background-color: #fff;
         }
-} */
+}
