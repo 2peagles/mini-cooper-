@@ -13,7 +13,7 @@ import MINI from '../../Images/MINI.png';
 import './Navigation.css'
 export const Navigation = () => {
   return (
-      <Navbar >
+      <Navbar>
           <Container fluid>
               <Navbar.Brand href="#home"><img src={MINI} alt='MINI logo' height='60px'/></Navbar.Brand>
               <Navbar.Toggle aria-controls="nav-dropdown-example"/>
@@ -26,8 +26,8 @@ export const Navigation = () => {
                           className='position-static p-3  justify-content-start'
                       >
                           <Row className='navrow'>
-                              <Col>
-                                  <NavDropdown.Item href="#action/3.1" className='mt-0 w-100 p-0'>
+                              <Col className='nav-item-col'>
+                                  <NavDropdown.Item href="#action/3.1" >
                                       <Col className='navmodelcontainer navmodel'>     
                                         <img src={fourdoor} alt='cooper gray' height='150px'className='d-block  '/>
                                           <h3 className='navmodelname'>MINI HARDTOP 2 DOOR </h3>   
@@ -39,7 +39,7 @@ export const Navigation = () => {
                                 </NavDropdown.Item>
                               </Col>
                           <Col>
-                            <NavDropdown.Item href="#action/3.2" className='mt-0 w-100 p-0 '>
+                            <NavDropdown.Item href="#action/3.2" >
                                  <Col className='navmodel'>
                                      < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
                                         <h3 className='navmodelname'>MINI HARDTOP  4 DOOR </h3>  
@@ -51,7 +51,7 @@ export const Navigation = () => {
                                      </NavDropdown.Item>
                               </Col>
                           <Col>
-                                  <NavDropdown.Item href="#action/3.3" className='mt-0 w-100p-0 '>
+                                  <NavDropdown.Item href="#action/3.3" >
                                     <Col className='navmodel'>
                                       < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
                                       <h3 className='navmodelname'>mini countryman </h3>   
@@ -63,7 +63,7 @@ export const Navigation = () => {
                                     </NavDropdown.Item>
                               </Col>
                           <Col>
-                                  <NavDropdown.Item href="#action/3.4" className='mt-0 w-100 p-0'>
+                                  <NavDropdown.Item href="#action/3.4">
                                       <Col className='navmodel'>
                                         < img src={fourdoor} alt='cooper gray' height='150px' className='d-block' />
                                           <h3 className='navmodelname'>mini clubman </h3>   

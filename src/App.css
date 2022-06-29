@@ -16,3 +16,6 @@ button:hover{
     background-color: #fff;
     text-transform: uppercase;
 }
+hr{
+    margin:0px;
+}

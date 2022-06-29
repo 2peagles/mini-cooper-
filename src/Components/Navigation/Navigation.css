@@ -1,9 +1,13 @@
- .navbar {
-      padding: 0px 30px;
-     background-color: #fff;
+nav.navbar{
+    /* top:0%;
+    width:100%;
+    position: fixed; */
+    padding: 0px 30px;
+    background-color: #fff;
 }
 .navmodelname{
     font-size: 20px;
+    font-weight:400;
     text-transform: uppercase;
     font-family: MiniSerif, Times, Times New Roman, Georgia, serif;
 }
@@ -22,6 +26,7 @@
  .navbtn{
         color:white;
         border: none;
+        font-size: 15px;
         padding:5px 20px;
         text-transform: uppercase;
         background-color: #ac2430;
@@ -29,13 +34,18 @@
 .navbtnoffer {
        color: white;
         border: none;
+        font-size: 15px;
         background-color: black;
 }
  .navbtn:hover {
           color: #000;
+          font-size: 15px;
           padding: 5px 20px;
           border:1px solid #000;
           background-color: #fff;
+}
+.navmodelicon {
+    font-size: 2rem;
 }
  .icon{
         font-size: 2rem;
@@ -56,26 +66,37 @@
     font-size: 14px;
     font-weight: bold;
     font-family: MiniSans, Arial, sans-serif;
+ 
 }
- #dropdown-button-drop-end.dropdown-toggle.btn.btn-light::after{
-    display: none;
-}
+ /* #dropdown-button-drop-end.dropdown-toggle.btn.btn-light::after {
+     display: none;
+ } */
 .dropdown-menu.show.dropdown-menu-light{
     margin:0px 10%;
     padding:0px 30px;
+    width:80%;
 }
 .hidden{
-    display: none;
+    visibility: hidden;
 }
 .navmodel:hover + .hidden{
-    display: block;
+    visibility: visible;
 }
+.navmodel{
+    backface-visibility: visible;
+}
+
 .navmodelbottom{
     padding:10px 0px 0px 0px;
 }
-
-.navmodelicon{
-    font-size: 2rem;
+.dropdown-item.dropdown-item:hover{
+    background-color: #fff;
+}
+.dropdown-item.dropdown-item:focus {
+    background-color: #fff;
+}
+.dropdown:hover.dropdown-menu{
+    display: block;
 }
  /* .dropdown-item{
     padding:24px;
@@ -89,6 +110,12 @@
     .dropdown-menu.show.dropdown-menu-light {
             margin:0;
             width:100%;
-            background-color: #fff;
         }
+}
+/* .navmodel{
+    padding-bottom: 30px;
+    background-color: #fff;
+} */
+a.dropdown-item{
+    padding:0px;
 }

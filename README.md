@@ -51,7 +51,7 @@ Day FIVE
         ![Screenshot 2022-06-28 9 06 44 PM](https://user-images.githubusercontent.com/103866435/176330016-b3551af2-113a-4150-9a39-ebc6a8f49a3b.png)
 ![Screenshot 2022-06-28 9 07 10 PM](https://user-images.githubusercontent.com/103866435/176330017-cda11cc6-bdc2-4229-b8ec-d511a2cb7a15.png)
 ![Screenshot 2022-06-28 9 06 55 PM](https://user-images.githubusercontent.com/103866435/176330019-02cb06ff-4d20-45b0-a3ec-86223adba099.png)
-My menu is messed up for some reason it's not appearing I might have done that yesterday trying to get the downarrows gone. So I guess that's next.
+My menu is messed up for some reason it's not appearing I might have done that yesterday trying to get the downarrows gone. So I guess that's next. display none is different form visiablity
 
 ### Code Splitting
 
